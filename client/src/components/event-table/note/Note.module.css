@@ -1,0 +1,53 @@
+.row {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    width: 80%;
+    margin: auto;
+}
+
+.col {
+    margin: 1rem;
+    flex-basis: 20%;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    height: 40px;
+    display: flex;
+}
+
+.col p {
+
+    margin: auto;
+    padding: 0;
+}
+
+.col-bgc {
+    background-color: gray;
+}
+
+.col input {
+    direction: rtl;
+    width: 100%;
+}
+
+.buttons {
+    margin: 1rem;
+    flex-basis: 10%;
+    text-align: center;
+    display: flex;
+}
+
+.buttons button{
+    margin: auto;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.buttons button:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}

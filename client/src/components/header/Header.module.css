@@ -1,0 +1,71 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #181818;
+}
+
+.header-container > div {
+    flex-basis: 30%;
+}
+
+.user-profile {
+    display: flex;
+    position: relative;
+}
+
+
+.user-name {
+    line-height: 50px;
+}
+
+.user-profile > button {
+    margin-right: 30px;
+    cursor: pointer;
+    background-color: #181818;
+    border: 0;
+}
+
+.user-profile-menu {
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    list-style-type: none;
+    margin: 5px 15px;
+    padding: 15px;
+    border: 1px solid grey;
+    width: 120px;
+    border-radius: 15px;
+}
+
+.logout-btn {
+    width: 100%;
+    cursor: pointer;
+    background-color: darkgray;
+    border-color: darkgray;
+    border-radius: 5px;
+}
+
+.user-profile-menu > li {
+    margin: 5px 0;
+    color: white;
+}
+
+.user-profile-menu a {
+    color: white;
+}
+
+.title {
+    text-align: center;
+}
+
+.icon {
+    margin-left: 30px;
+    text-align: left;
+}
+
+.icon img {
+    height: 75px;
+    width: 60px;
+}

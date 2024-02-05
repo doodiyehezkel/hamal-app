@@ -1,0 +1,58 @@
+.row {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.col input ,.col select{
+    width: 30px;
+    padding: 5px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: medium;
+}
+
+.col input:focus ,.col select:focus{
+    outline: none;
+}
+
+.col {
+    margin: 1rem;
+    flex-basis: 20%;   
+}
+
+.col input , .col label ,.col select {
+    display: block;
+    direction: rtl;
+}
+
+.col input ,.col select {
+    margin: auto;
+    width: 98%;
+}
+
+
+
+.submit-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    
+}
+
+.submit-btn button {
+    height: 50px;
+    width: 100px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.submit-btn button:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}

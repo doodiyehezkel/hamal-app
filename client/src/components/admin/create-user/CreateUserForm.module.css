@@ -1,0 +1,42 @@
+.create-user-form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 50%;
+    box-shadow: 2px 2px 8px 8px rgba(128, 128, 128, 0.359);
+    border-radius: 15px;
+}
+
+.create-user-title {
+    margin: 0;
+    text-align: center;
+}
+
+.create-user-input {
+    width: 50%;
+    margin: 2%;
+}
+
+.create-user-input input , .create-user-input label , .create-user-input select  {
+    display: block;
+    width: 100%;
+}
+
+.create-user-submit {
+    text-align: center;
+}
+
+.error-message-container {
+    margin-top: 0.6rem;
+    width: 80%;
+}
+
+.error-message {
+    text-align: center;
+    background-color: tomato;
+    border-radius: 7px;
+    padding: 0.3rem;
+}
